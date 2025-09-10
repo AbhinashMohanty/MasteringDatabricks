@@ -28,13 +28,18 @@
           <mxGeometry x="439.22" y="41" width="53.56" height="58" as="geometry" />
         </mxCell>
         <mxCell id="nvVG6CUDjiLtDnFA0QkN-19" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="43.5" y="39" width="45" height="60" as="geometry" />
+          <mxGeometry x="50" y="39" width="45" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nvVG6CUDjiLtDnFA0QkN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;flowAnimation=1;" parent="1" source="nvVG6CUDjiLtDnFA0QkN-20" target="nvVG6CUDjiLtDnFA0QkN-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="174" />
+              <mxPoint x="66" y="174" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="nvVG6CUDjiLtDnFA0QkN-20" value="Azure Database" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="99" width="110" height="30" as="geometry" />
+          <mxGeometry x="19" y="99" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nvVG6CUDjiLtDnFA0QkN-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="nvVG6CUDjiLtDnFA0QkN-21" target="nvVG6CUDjiLtDnFA0QkN-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
