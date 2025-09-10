@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Page-1" id="jQJXSV5LY4cYFqut-kah">
+    <mxGraphModel dx="1097" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-3" value="Databricks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="406.78" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-14" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-15" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-16" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="100" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-17" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="170" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-18" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="53.56" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-19" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="45" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;flowAnimation=1;" edge="1" parent="1" source="nvVG6CUDjiLtDnFA0QkN-20" target="nvVG6CUDjiLtDnFA0QkN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-20" value="Azure Database" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="29" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="nvVG6CUDjiLtDnFA0QkN-21" target="nvVG6CUDjiLtDnFA0QkN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-21" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-22" value="Azure Data Factory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="278" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-27" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="400" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="nvVG6CUDjiLtDnFA0QkN-34" target="nvVG6CUDjiLtDnFA0QkN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Evil_Icons_User_Interface-2617/download-575.svg;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="225" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="150" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-46" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.github;gradientColor=#DFDEDE" vertex="1" parent="1">
+          <mxGeometry x="98" y="370" width="51" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nvVG6CUDjiLtDnFA0QkN-47" value="Broze" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
