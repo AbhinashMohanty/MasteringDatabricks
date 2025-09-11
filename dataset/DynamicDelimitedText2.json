@@ -1,0 +1,30 @@
+{
+	"name": "DynamicDelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "https_link_service",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_name": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "AbhinashMohanty/MasteringDatabricks/refs/heads/main/SCD-type1/Raw%20Data/@{dataset().file_name}",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
