@@ -1,23 +1,19 @@
 {
-	"name": "adls_sink",
+	"name": "Parquet1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "github_adls",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Parquet",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"folderPath": "Bronze",
 				"fileSystem": "scd1"
 			},
-			"columnDelimiter": ",",
-			"rowDelimiter": "\n",
-			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"compressionCodec": "snappy"
 		},
 		"schema": []
 	}
