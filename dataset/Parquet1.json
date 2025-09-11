@@ -13,7 +13,7 @@
 				"folderPath": "Bronze",
 				"fileSystem": "scd1"
 			},
-			"compressionCodec": "snappy"
+			"compressionCodec": null
 		},
 		"schema": []
 	}
