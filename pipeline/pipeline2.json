@@ -43,7 +43,10 @@
 				"inputs": [
 					{
 						"referenceName": "DynamicDelimitedText2",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"file_name": "SalesData.csv"
+						}
 					}
 				],
 				"outputs": [
