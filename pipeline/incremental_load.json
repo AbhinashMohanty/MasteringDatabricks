@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "incremental_load",
 	"properties": {
 		"activities": [
 			{
@@ -27,7 +27,7 @@
 				}
 			},
 			{
-				"name": "Lookup1_copy1",
+				"name": "current_load",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
