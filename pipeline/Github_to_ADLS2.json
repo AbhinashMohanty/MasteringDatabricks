@@ -1,5 +1,5 @@
 {
-	"name": "Copy_from_GitHub",
+	"name": "Github_to_ADLS2",
 	"properties": {
 		"activities": [
 			{
