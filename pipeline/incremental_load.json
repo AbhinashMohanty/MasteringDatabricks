@@ -5,6 +5,8 @@
 			{
 				"name": "last_load",
 				"type": "Lookup",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -33,6 +35,8 @@
 			{
 				"name": "current_load",
 				"type": "Lookup",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -84,7 +88,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "Select * From source_cars_data\nWhere Date_ID > '@{activity('last_load').output.value[0]}.last_load}'\nAnd Date_ID <= '@{activity('current_load').output.value[0]}.max_date}'",
+							"value": "Select * From source_cars_data\nWhere Date_ID > '@{activity('last_load').output.value[0].last_load}'\nAnd Date_ID <= '@{activity('current_load').output.value[0].max_date}'",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00",
